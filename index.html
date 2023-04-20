@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3845/3845731.png" type="image/x-icon">
+    
+
+</head>
+<body>
+    <div class="content">
+
+
+    <div class="search">
+        <label for="citysrch">Введите город:</label>
+        <input id="citysrch" type="text" class="inputcity">
+        <button id="btn">Поиск</button>
+    </div>
+    
+    <div class="weather">
+        <h2>Погода в городе <span class="city"></span></h2>
+        <p>Погода: <span class="temp"></span>°C</p>
+        <p>Влажность: <span class="humidity"></span>%</p>
+        <p>Ветер: <span class="wind"></span> км/ч</p>
+    </div>
+</div>
+
+      <script src="script.js"></script>
+  
+</body>
+
+</html>

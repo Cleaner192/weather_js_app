@@ -1,0 +1,127 @@
+﻿/* body {
+    background:  url(travolta.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* .content {
+    position: absolute; 
+    left: 0; right: 0; top: 0; bottom: 0; 
+    background: rgba(0,0,0,0.7);
+} */ 
+
+/* /* 
+p {
+    color: #fff;
+    font-size: 40em;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+       
+
+} */
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background:  url(https://images.wallpaperscraft.ru/image/single/gory_les_zvezdnoe_nebo_201686_1920x1080.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    position: absolute;
+    left: 35%;
+    display: inline-block;
+    margin-top: 10%;
+
+    padding: 20px;
+
+    border: 2px solid rgb(1, 225, 250);
+    border-radius: 10px;
+    
+}
+
+
+label {
+    color: rgb(43, 255, 216);
+
+}
+
+.inputcity {
+    border: 3px solid rgb(6, 246, 242);
+    height: 20px;
+    line-height: 30px;
+    outline: none;
+    border-radius: 10px;
+    opacity: 0.4;
+    
+}
+
+.inputcity:focus {
+    border: 3px solid rgba(6, 64, 255, 0.865);
+    opacity: 0.9;
+    transition: .5s;
+}
+
+#btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 0 10px 10px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 30px;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: rgb(21, 255, 239, 0.884);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: 0.2s;
+    outline: none;
+}
+
+#btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+#btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+#btn:active {
+	background-color: #808080;
+}
+#btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
+
+
+h2 {
+    color: rgba(21, 255, 239, 0.884);
+    font-size: 30px;
+    
+
+}
+
+p {
+    text-align: center;
+    color: rgb(177, 240, 6);
+}
+
+
+
+
